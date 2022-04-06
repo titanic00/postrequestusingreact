@@ -1,8 +1,12 @@
 import './App.css';
+import { Input } from '../Input/Input';
 
 function App() {
     return (
-      <h1>Hello world</h1>
+      <div className="container">
+        <h1>Put your link here: </h1>
+        <Input />
+      </div>
     );
 }
 
