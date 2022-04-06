@@ -21,7 +21,7 @@ export class Input extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div id="input">
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"
